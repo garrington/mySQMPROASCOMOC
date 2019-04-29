@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ASCOM.mySQMPRO.Test.exe" version="1.0.0.4" publicKeyToken="4eaf9c4cdae0dd32" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="mySQMPROTA.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ASCOM.mySQMPRO.Test" version="6.2.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="ASCOM.mySQMPRO.Test.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="ASCOM.DeviceInterfaces" version="6.0.0.0" publicKeyToken="565DE7938946FBA7" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="ASCOM.DriverAccess" version="6.0.0.0" publicKeyToken="565DE7938946FBA7" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="ASCOM.Exceptions" version="6.0.0.0" publicKeyToken="565DE7938946FBA7" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="ASCOM.Interfaces" version="1.0.0.0" publicKeyToken="565DE7938946FBA7" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="ASCOM.Utilities" version="6.0.0.0" publicKeyToken="565DE7938946FBA7" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ASCOM.mySQMPRO.Test.exe" size="42920">
+      <assemblyIdentity name="ASCOM.mySQMPRO.Test" version="6.2.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>8TfTqi2KiF5mGDeNtO9bkVWOJJE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ASCOM.mySQMPRO.Test.exe.config" size="1569">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>xPGGdYjUKBwSwk7su/NeRoxv48s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="mySQMPROTA.ico" size="12862">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GKlQVfqfy38L/CG0l1wLEoMwkik=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ROBERT-ASUS\robert" issuerKeyHash="1f5486f7a330333958cff0d836885f8eb804858a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>e4RZ1UcRiv0UHWjnT8hJ1IsLJ1k=</DigestValue></Reference></SignedInfo><SignatureValue>gUJDhcUrlHc3bdHRo9tqEUj6Cufy3uQwvX/GUh7Z6RReAovx3HOJ5WgZi5dDH8ezP3LOdrFSjvT0ChKGJWvsx/5B/vfOigW6sGV9T+BlSYgr4Wj/5TTSGaAXBb184l0ucH5GygNAZAxiI/JgkhGiY3FLcD2RwLc5Y+nl91lyPIM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2HZy/NYLfOuW+fRk2RQ9n1DctLyWJUavUzq3SlZUt87Urjh7hhO5Yob2dFFLUZq2X7dZaA0neDef//rz1Ncm7o5w4gvzBJaIQ4TZkxxo+s8OnKfzA/6Us3O1X8hGOrkZos+gsxwz4W75wgjjPuqltUzJ8mwa2fPxkJ/+hGSQlK0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="59270b8bd449c84fe7681d14fd8a1147d559847b" Description="" Url=""><as:assemblyIdentity name="ASCOM.mySQMPRO.Test.exe" version="1.0.0.4" publicKeyToken="4eaf9c4cdae0dd32" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ROBERT-ASUS\robert</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>qIrMD5hLgW+7SJia93mHk7sJtko=</DigestValue></Reference></SignedInfo><SignatureValue>qMj7th8Dwuv6Qpt7AIuCaSEg1ZDaYC1Z6RzWcgk8By91F3P4l8gejgfG9yd8OwyG0bgfxeILGCRxNbZrAyEb4CkCetzMg5kCjvL4rklNCRlbXyXUo9zb7Gl2VoYhXOOuDOufBDOIzb/ihnDujnBUJ9UTqKEZ7VhcvXSSV9Prf7w=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2HZy/NYLfOuW+fRk2RQ9n1DctLyWJUavUzq3SlZUt87Urjh7hhO5Yob2dFFLUZq2X7dZaA0neDef//rz1Ncm7o5w4gvzBJaIQ4TZkxxo+s8OnKfzA/6Us3O1X8hGOrkZos+gsxwz4W75wgjjPuqltUzJ8mwa2fPxkJ/+hGSQlK0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQJHgicRhXqY9AWNsoDMIimjANBgkqhkiG9w0BAQUFADAvMS0wKwYDVQQDHiQAUgBPAEIARQBSAFQALQBBAFMAVQBTAFwAcgBvAGIAZQByAHQwHhcNMTcxMDI4MDYwNDUzWhcNMjIxMDI4MDYwNDUzWjAvMS0wKwYDVQQDHiQAUgBPAEIARQBSAFQALQBBAFMAVQBTAFwAcgBvAGIAZQByAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANh2cvzWC3zrlvn0ZNkUPZ9Q3LS8liVGr1M6t0pWVLfO1K44e4YTuWKG9nRRS1Gatl+3WWgNJ3g3n//689TXJu6OcOIL8wSWiEOE2ZMcaPrPDpyn8wP+lLNztV/IRjq5GaLPoLMcM+Fu+cII4z7qpbVMyfJsGtnz8ZCf/oRkkJStAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAwBL67Eok3Qa4uJ5/eA8E5sU1AnmKZR6wmGwo5039KvDhTJ2CDwxPt8MyfvWdLHIVN376yoIzgUn2vYLwCrCx810H8CGyCwex2Ph7JhOGlXKfSkCax3vGEVZ88K4lCJ5SSt44SrMj6eophhrcl60rWV4QMKG4jr9ho4i2uj8oCyw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

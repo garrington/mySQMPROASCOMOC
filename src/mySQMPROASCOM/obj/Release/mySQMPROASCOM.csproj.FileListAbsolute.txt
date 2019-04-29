@@ -1,0 +1,9 @@
+D:\myFiles\myGitHub\mySQMPROASCOMOC\src\mySQMPROASCOM\bin\Release\ASCOM.mySQMPRO.ObservingConditions.dll.config
+D:\myFiles\myGitHub\mySQMPROASCOMOC\src\mySQMPROASCOM\bin\Release\ASCOM.mySQMPRO.ObservingConditions.dll
+D:\myFiles\myGitHub\mySQMPROASCOMOC\src\mySQMPROASCOM\bin\Release\ASCOM.mySQMPRO.ObservingConditions.pdb
+D:\myFiles\myGitHub\mySQMPROASCOMOC\src\mySQMPROASCOM\obj\Release\mySQMPROASCOM.csprojResolveAssemblyReference.cache
+D:\myFiles\myGitHub\mySQMPROASCOMOC\src\mySQMPROASCOM\obj\Release\ASCOM.mySQMPRO.Properties.Resources.resources
+D:\myFiles\myGitHub\mySQMPROASCOMOC\src\mySQMPROASCOM\obj\Release\ASCOM.mySQMPRO.SetupDialogForm.resources
+D:\myFiles\myGitHub\mySQMPROASCOMOC\src\mySQMPROASCOM\obj\Release\mySQMPROASCOM.csproj.GenerateResource.Cache
+D:\myFiles\myGitHub\mySQMPROASCOMOC\src\mySQMPROASCOM\obj\Release\ASCOM.mySQMPRO.ObservingConditions.dll
+D:\myFiles\myGitHub\mySQMPROASCOMOC\src\mySQMPROASCOM\obj\Release\ASCOM.mySQMPRO.ObservingConditions.pdb

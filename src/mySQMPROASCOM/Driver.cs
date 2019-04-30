@@ -199,8 +199,17 @@ namespace ASCOM.mySQMPRO
         {
             get
             {
-                tl.LogMessage("SupportedActions Get", "Returning empty arraylist");
-                return new ArrayList();
+                tl.LogMessage("SupportedActions Get", "Returning list...");
+                ArrayList supportedActions = new ArrayList();
+
+                supportedActions.Add("DewPoint");  
+                supportedActions.Add("Humidity");
+                supportedActions.Add("Pressure");
+                supportedActions.Add("SkyBrightness");
+                supportedActions.Add("SkyQuality");
+                supportedActions.Add("SkyTemperature");
+                supportedActions.Add("Temperature");
+                return supportedActions;
             }
         }
 

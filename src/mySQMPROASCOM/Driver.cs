@@ -209,6 +209,7 @@ namespace ASCOM.mySQMPRO
                 supportedActions.Add("SkyQuality");
                 supportedActions.Add("SkyTemperature");
                 supportedActions.Add("Temperature");
+                supportedActions.Add("AveragePeriod");
                 return supportedActions;
             }
         }
